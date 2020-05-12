@@ -5,7 +5,6 @@ import './directory.styles.scss';
 const Directory = () => {
   //   const [section, setSection] = useState([]);
 
-  console.log('data', sections);
   return (
     <div className="directory-menu">
       {sections.map((section) => (
