@@ -42,12 +42,14 @@ const SignIn = () => {
           label="password"
           required
         />
-
-        <CustomButton type="submit">Sign In</CustomButton>
-
-        <button className="custom-button" onClick={signInWithGoogle}>
-          Sign In With Google
-        </button>
+        <div className="buttons">
+          <CustomButton type="submit">Sign In</CustomButton>
+          <div onClick={signInWithGoogle}>
+            <CustomButton className="custom-button" isGoogleSignIn>
+              Sign In With Google
+            </CustomButton>
+          </div>
+        </div>
       </form>
     </div>
   );
