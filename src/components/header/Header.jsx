@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase.utils';
 import { connect } from 'react-redux';
 import Pos from '../pos-component/Pos';
+import CartIcon from '../card-icon/CartIcon';
+import CartDropdown from '../cart-dropdown/CartDropdown';
 import './header.styles.scss';
 
 // import Pos from '../pos-component/Pos';
 
-const Header = ({ currentUser }) => {
+const Header = ({ currentUser, hidden }) => {
   return (
     <div className="header-ad">
       <div className="header">
@@ -36,15 +38,18 @@ const Header = ({ currentUser }) => {
               SIGN IN
             </Link>
           )}
+          <CartIcon />
         </div>
+        {hidden ? null : <CartDropdown />}
       </div>
       <Pos />
     </div>
   );
 };
 
-const mapStateToProps = (state) => ({
-  currentUser: state.user.currentUser,
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+  currentUser,
+  hidden,
 });
 
 export default connect(mapStateToProps)(Header);
