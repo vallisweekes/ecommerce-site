@@ -12,6 +12,7 @@
     font-family: 'Open Sans Condensed';
     font-weight: bolder;
     border: none;
+    outline: none;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -19,6 +20,7 @@
         background-color: white;
         color: black;
         border: 1px solid black;
+        outline: none;
     }
     &.google-sign-in {
         background-color: #4285f4;
@@ -26,6 +28,7 @@
         &:hover {
             background-color: #357ae8;
             border: none;
+            outline: none;
         }
     }
     &.inverted {
@@ -36,6 +39,7 @@
             background-color: black;
             color: white;
             border: none;
+            outline: none;
         }
     }
 }
