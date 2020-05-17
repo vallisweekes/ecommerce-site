@@ -125,26 +125,30 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        name: 'Mens Brown Leather',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/mens-brown-leather.jpg',
         price: 125,
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        name: 'Winter Warmer',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/winter-warmer.jpg',
         price: 90,
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        name: 'Sassy Overcoat',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/women-overcoat.jpg',
         price: 90,
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        name: 'Sunshine Warmer',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/sunshine-warmer.jpg',
         price: 165,
       },
       {

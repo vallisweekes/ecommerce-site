@@ -6,13 +6,15 @@ import { selectCollection } from '../../redux/shop/shop.selector';
 import CollectionItem from '../../components/collection-item/CollectionItem';
 
 import './collection.styles.scss';
-const CollectionPage = ({ collection }) => {
+import BackButton from '../../components/back-button/BackButton';
+const CollectionPage = ({ collection, history }) => {
   // console.log(match);
 
   const { title, items } = collection;
 
   return (
     <div className="collection-page">
+      <BackButton history={history} />
       <h2 className="title">{title}</h2>
       <div className="items">
         {items.map((item) => (
