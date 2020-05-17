@@ -6,26 +6,27 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'L.A Beanie',
+        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/la-beanie.jpg',
         price: 25,
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'VW RVAW',
+        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/vw-rvaw.jpg',
         price: 18,
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Must Cool',
+        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/must-cook.jpg',
         price: 35,
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'Chicago Bulls',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/chicago-bulls.jpg',
         price: 25,
       },
       {
@@ -60,33 +61,35 @@ const SHOP_DATA = {
       },
     ],
   },
-  sneakers: {
+  trainers: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Trainers',
+    routeName: 'trainers',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        name: 'Air Jordon',
+        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/airjordan.jpg',
         price: 220,
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        name: 'Nike Aire Classic',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/nikeair-classics.jpg',
         price: 280,
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        name: 'Air Force 1',
+        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/airforce2.jpg',
         price: 110,
       },
       {
         id: 13,
         name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/nikeairforce-3.jpg',
         price: 160,
       },
       {

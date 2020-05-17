@@ -14,11 +14,11 @@ const INITIAL_STATE = {
       linkUrl: 'shop/jackets',
     },
     {
-      title: 'sneakers',
+      title: 'trainers',
       imageUrl:
         'https://www.vallisweekes.com/portfolio_assets/sneakers_shop.jpg',
       id: 3,
-      linkUrl: 'shop/sneakers',
+      linkUrl: 'shop/trainers',
     },
     {
       title: 'womens',

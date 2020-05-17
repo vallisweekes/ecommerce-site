@@ -13,10 +13,10 @@ const sections = [
     linkUrl: 'shop/jackets',
   },
   {
-    title: 'shoes',
+    title: 'trainers',
     imageUrl: 'https://www.vallisweekes.com/portfolio_assets/sneakers_shop.jpg',
     id: 3,
-    linkUrl: 'shop/sneakers',
+    linkUrl: 'shop/trainers',
   },
   {
     title: 'womens',

@@ -8,9 +8,9 @@ import CollectionItem from '../../components/collection-item/CollectionItem';
 import './collection.styles.scss';
 const CollectionPage = ({ collection }) => {
   // console.log(match);
-  console.log('Log collectuon in collections', collection);
+
   const { title, items } = collection;
-  console.log('page items', items);
+
   return (
     <div className="collection-page">
       <h2 className="title">{title}</h2>
