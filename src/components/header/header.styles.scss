@@ -18,10 +18,15 @@
         align-items: center;
         justify-content: flex-end;
         .option {
+            font-size: 14px;
             padding: 10px 15px;
             cursor: pointer;
         }
     }
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .option {
+        font-size: 16px !important;
+    }
+}
