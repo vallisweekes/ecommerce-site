@@ -9,9 +9,18 @@
     .footer-inner {
         width: 80%;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
         .disclaimer {
             display: flex;
             align-items: center;
+            width: 200px;
+            font-size: 13px;
+        }
+        .social {
+            width: 200px;
         }
     }
 }
