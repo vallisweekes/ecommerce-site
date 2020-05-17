@@ -5,9 +5,10 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectUserCurrentUser } from '../../redux/user/user.selector';
-import Pos from '../pos-component/Pos';
+
 import CartIcon from '../card-icon/CartIcon';
 import CartDropdown from '../cart-dropdown/CartDropdown';
+
 import './header.styles.scss';
 
 // import Pos from '../pos-component/Pos';
@@ -45,7 +46,6 @@ const Header = ({ currentUser, hidden }) => {
         </div>
         {hidden ? null : <CartDropdown />}
       </div>
-      <Pos />
     </div>
   );
 };
