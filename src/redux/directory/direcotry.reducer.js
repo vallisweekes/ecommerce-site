@@ -2,7 +2,7 @@ const INITIAL_STATE = {
   sections: [
     {
       title: 'hats',
-      imageUrl: 'https://www.vallisweekes.com/portfolio_assets/must-cook.jpg',
+      imageUrl: 'https://www.vallisweekes.com/portfolio_assets/must-cool.jpg',
       id: 1,
       linkUrl: 'shop/hats',
     },
