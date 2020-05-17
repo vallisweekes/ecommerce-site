@@ -166,14 +166,16 @@ const SHOP_DATA = {
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Cream Joggers',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/cream-joggers.jpg',
         price: 25,
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'Womens Cargo',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/women-cargo.jpg',
         price: 20,
       },
       {
@@ -215,14 +217,16 @@ const SHOP_DATA = {
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325,
+        name: 'Ripped Stonewash Jeans',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/stone-wash-ripped.jpg',
+        price: 120,
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        name: 'Black Ripped Jeans',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/black-ripped-jeans.jpg',
         price: 20,
       },
       {
@@ -233,8 +237,9 @@ const SHOP_DATA = {
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        name: 'Dark Green Jumper',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/Dark-green-jumper.jpg',
         price: 25,
       },
       {

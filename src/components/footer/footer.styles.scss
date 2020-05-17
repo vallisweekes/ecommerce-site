@@ -1,6 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap");
 .footer {
     width: 100vw;
-    height: 300px;
-    background-color: #2f2f2f;
-    color: white;
+    height: 60px;
+    background-color: #f2f2f2;
+    color: #686868;
+    font-family: "Roboto", sans-serif;
+    border-top: 1px solid #e8e8e8;
+    .footer-inner {
+        width: 80%;
+        margin: 0 auto;
+        .disclaimer {
+            display: flex;
+            align-items: center;
+        }
+    }
 }

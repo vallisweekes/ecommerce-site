@@ -8,7 +8,7 @@ import HomePage from './pages/homepage/HomePage';
 import ShopPage from './pages/shop/ShopPage';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/SignInAndSignUpPage';
 import CheckoutPage from './pages/checkoutpage/CheckoutPage';
-
+import Footer from './components/footer/Footer';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.action';
 import { selectUserCurrentUser } from './redux/user/user.selector';
@@ -39,25 +39,28 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header />
+      <div className="container">
+        <div className="App">
+          <Header />
 
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/shop" component={ShopPage} />
-          <Route exact path="/checkout" component={CheckoutPage} />
-          <Route
-            exact
-            path="/signin"
-            render={() =>
-              this.props.currentUser ? (
-                <Redirect to="/" />
-              ) : (
-                <SignInAndSignUpPage />
-              )
-            }
-          />
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/shop" component={ShopPage} />
+            <Route exact path="/checkout" component={CheckoutPage} />
+            <Route
+              exact
+              path="/signin"
+              render={() =>
+                this.props.currentUser ? (
+                  <Redirect to="/" />
+                ) : (
+                  <SignInAndSignUpPage />
+                )
+              }
+            />
+          </Switch>
+        </div>
+        <Footer />
       </div>
     );
   }

@@ -34,7 +34,7 @@ const SignIn = () => {
           type="email"
           value={values.email}
           handleChange={handleChange}
-          label="email"
+          label="Email"
           required
         />
 
@@ -43,7 +43,7 @@ const SignIn = () => {
           type="password"
           value={values.password}
           handleChange={handleChange}
-          label="password"
+          label="Password"
           required
         />
         <div className="buttons">
