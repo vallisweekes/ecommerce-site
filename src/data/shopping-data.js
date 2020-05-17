@@ -231,8 +231,9 @@ const SHOP_DATA = {
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        name: 'Summer Wear Top',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/summer-ting.jpg',
         price: 25,
       },
       {
@@ -244,14 +245,16 @@ const SHOP_DATA = {
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+        name: 'Summer Flow Shirt',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/floralmen-top.jpg',
         price: 40,
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'Stripe Colored Shirt',
+        imageUrl:
+          'https://www.vallisweekes.com/portfolio_assets/colour-stripe.jpg',
         price: 25,
       },
     ],
