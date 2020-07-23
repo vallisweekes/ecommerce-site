@@ -3,13 +3,14 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { createStructuredSelector } from 'reselect';
 import { connect } from 'react-redux';
 
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import Header from './components/header/Header';
 import HomePage from './pages/homepage/HomePage';
 import ShopPage from './pages/shop/ShopPage';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/SignInAndSignUpPage';
 import CheckoutPage from './pages/checkoutpage/CheckoutPage';
 import Footer from './components/footer/Footer';
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+
 import { setCurrentUser } from './redux/user/user.action';
 import { selectUserCurrentUser } from './redux/user/user.selector';
 

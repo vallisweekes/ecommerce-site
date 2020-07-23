@@ -19,11 +19,7 @@ const Header = ({ currentUser, hidden }) => {
       <div className="header">
         <Link to="/">
           <div className="logo-container">
-            <img
-              style={{ width: 90 }}
-              src="https://www.vallisweekes.com/portfolio_assets/voowoo-trans-bg.png"
-              alt="logo"
-            />
+            <img style={{ width: 90 }} src="/voowoo-trans-bg.png" alt="logo" />
           </div>
         </Link>
         <div className="options">

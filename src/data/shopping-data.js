@@ -7,26 +7,25 @@ const SHOP_DATA = {
       {
         id: 1,
         name: 'L.A Beanie',
-        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/la-beanie.jpg',
+        imageUrl: '/la-beanie.jpg',
         price: 25,
       },
       {
         id: 2,
         name: 'VW RVAW',
-        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/vw-rvaw.jpg',
+        imageUrl: '/vw-rvaw.jpg',
         price: 18,
       },
       {
         id: 3,
         name: 'Must Cool',
-        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/must-cook.jpg',
+        imageUrl: '/must-cook.jpg',
         price: 35,
       },
       {
         id: 4,
         name: 'Chicago Bulls',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/chicago-bulls.jpg',
+        imageUrl: '/chicago-bulls.jpg',
         price: 25,
       },
       {
@@ -69,27 +68,25 @@ const SHOP_DATA = {
       {
         id: 10,
         name: 'Air Jordon',
-        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/airjordan.jpg',
+        imageUrl: '/airjordan.jpg',
         price: 220,
       },
       {
         id: 11,
         name: 'Nike Aire Classic',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/nikeair-classics.jpg',
+        imageUrl: '/nikeair-classics.jpg',
         price: 280,
       },
       {
         id: 12,
         name: 'Air Force 1',
-        imageUrl: 'https://www.vallisweekes.com/portfolio_assets/airforce2.jpg',
+        imageUrl: '/airforce2.jpg',
         price: 110,
       },
       {
         id: 13,
         name: 'Nike White AirForce',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/nikeairforce-3.jpg',
+        imageUrl: '/nikeairforce-3.jpg',
         price: 160,
       },
       {
@@ -126,29 +123,25 @@ const SHOP_DATA = {
       {
         id: 18,
         name: 'Mens Brown Leather',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/mens-brown-leather.jpg',
+        imageUrl: '/mens-brown-leather.jpg',
         price: 125,
       },
       {
         id: 19,
         name: 'Winter Warmer',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/winter-warmer.jpg',
+        imageUrl: '/winter-warmer.jpg',
         price: 90,
       },
       {
         id: 20,
         name: 'Sassy Overcoat',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/women-overcoat.jpg',
+        imageUrl: '/women-overcoat.jpg',
         price: 90,
       },
       {
         id: 21,
         name: 'Sunshine Warmer',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/sunshine-warmer.jpg',
+        imageUrl: '/sunshine-warmer.jpg',
         price: 165,
       },
       {
@@ -167,15 +160,13 @@ const SHOP_DATA = {
       {
         id: 23,
         name: 'Cream Joggers',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/cream-joggers.jpg',
+        imageUrl: '/cream-joggers.jpg',
         price: 25,
       },
       {
         id: 24,
         name: 'Womens Cargo',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/women-cargo.jpg',
+        imageUrl: '/women-cargo.jpg',
         price: 20,
       },
       {
@@ -218,43 +209,37 @@ const SHOP_DATA = {
       {
         id: 30,
         name: 'Ripped Stonewash Jeans',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/stone-wash-ripped.jpg',
+        imageUrl: '/stone-wash-ripped.jpg',
         price: 120,
       },
       {
         id: 31,
         name: 'Black Ripped Jeans',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/black-ripped-jeans.jpg',
+        imageUrl: '/black-ripped-jeans.jpg',
         price: 20,
       },
       {
         id: 32,
         name: 'Summer Wear Top',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/summer-ting.jpg',
+        imageUrl: '/summer-ting.jpg',
         price: 25,
       },
       {
         id: 33,
         name: 'Dark Green Jumper',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/Dark-green-jumper.jpg',
+        imageUrl: '/Dark-green-jumper.jpg',
         price: 25,
       },
       {
         id: 34,
         name: 'Summer Flow Shirt',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/floralmen-top.jpg',
+        imageUrl: '/floralmen-top.jpg',
         price: 40,
       },
       {
         id: 35,
         name: 'Stripe Colored Shirt',
-        imageUrl:
-          'https://www.vallisweekes.com/portfolio_assets/colour-stripe.jpg',
+        imageUrl: '/colour-stripe.jpg',
         price: 25,
       },
     ],

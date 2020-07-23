@@ -7,28 +7,26 @@ const sections = [
   },
   {
     title: 'jackets',
-    imageUrl:
-      'https://www.vallisweekes.com/portfolio_assets/jacket-model-resize.jpg',
+    imageUrl: '/jacket-model-resize.jpg',
     id: 2,
     linkUrl: 'shop/jackets',
   },
   {
     title: 'trainers',
-    imageUrl: 'https://www.vallisweekes.com/portfolio_assets/sneakers_shop.jpg',
+    imageUrl: '/sneakers_shop.jpg',
     id: 3,
     linkUrl: 'shop/trainers',
   },
   {
     title: 'womens',
-    imageUrl:
-      'https://www.vallisweekes.com/portfolio_assets/women_model-resize.jpg',
+    imageUrl: '/women_model-resize.jpg',
     size: 'large',
     id: 4,
     linkUrl: 'shop/womens',
   },
   {
     title: 'mens',
-    imageUrl: 'https://www.vallisweekes.com/portfolio_assets/man-model.jpg',
+    imageUrl: '/man-model.jpg',
     size: 'large',
     id: 5,
     linkUrl: 'shop/mens',
